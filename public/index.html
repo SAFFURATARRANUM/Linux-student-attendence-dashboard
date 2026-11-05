@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Attendance Monitoring Dashboard - Linux</title>
+    <!-- Link to your CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="dashboard-container">
+        <!-- Header -->
+        <header class="dashboard-header">
+            <h1>Student Attendance Monitoring Dashboard</h1>
+            <p>Linux programming practical dashboard</p>
+        </header>
+
+        <!-- Main Content Area -->
+        <main class="dashboard-main">
+            <div class="overview-header">
+                <div>
+                    <h2>Dashboard Overview</h2>
+                    <p class="timestamp">Last refreshed: 12:28:51 am</p> <!-- Static for now -->
+                </div>
+                <button class="refresh-btn">↻ Refresh Data</button>
+            </div>
+
+            <!-- KPI Cards -->
+            <section class="kpi-cards">
+                <div class="card">
+                    <h3>Total Students</h3>
+                    <p>10</p> <!-- Static placeholder -->
+                </div>
+                <div class="card">
+                    <h3>Average Attendance</h3>
+                    <p>77.8%</p>
+                </div>
+                <div class="card">
+                    <h3>Eligible</h3>
+                    <p>6</p>
+                </div>
+                <div class="card">
+                    <h3>Below 75%</h3>
+                    <p>4</p>
+                </div>
+            </section>
+
+            <!-- Bottom Section: Chart and Table -->
+            <section class="data-section">
+                <!-- Chart Container -->
+                <div class="chart-container">
+                    <h3>Summary Visualization</h3>
+                    <!-- This box will hold the Chart.js canvas later -->
+                    <div class="canvas-wrapper">
+                    <canvas id="attendanceChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- Table Container -->
+                <div class="table-container">
+                    <h3>Detailed Records</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Student_ID</th>
+                                <th>Student_Name</th>
+                                <th>Attendance_%</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Static placeholder data for the design -->
+                            <tr>
+                                <td>101</td>
+                                <td>Ravi</td>
+                                <td>90%</td>
+                                <td>Eligible</td>
+                            </tr>
+                            <tr>
+                                <td>102</td>
+                                <td>Meena</td>
+                                <td>65%</td>
+                                <td>Below 75%</td>
+                            </tr>
+                            <tr>
+                                <td>103</td>
+                                <td>Arjun</td>
+                                <td>75%</td>
+                                <td>Eligible</td>
+                            </tr>
+                            <tr>
+                                <td>104</td>
+                                <td>Sita</td>
+                                <td>50%</td>
+                                <td>Below 75%</td>
+                            </tr>
+                            <tr>
+                                <td>105</td>
+                                <td>Kiran</td>
+                                <td>82%</td>
+                                <td>Eligible</td>
+                           </tr>
+                           <tr>
+                                <td>106</td>
+                                <td>Priya</td>
+                                <td>96%</td>
+                                <td>Eligible</td>
+                           </tr>
+                            <tr>
+                                <td>107</td>
+                                <td>Anil</td>
+                                <td>70%</td>
+                                <td>Below 75%</td>
+                           </tr>
+                           <tr>
+                                <td>108</td>
+                                <td>Divya</td>
+                                <td>88%</td>
+                                <td>Eligible</td>
+                           </tr>
+                           <tr>
+                                <td>109</td>
+                                <td>Manoj</td>
+                                <td>45%</td>
+                                <td>Below 75%</td>
+                           </tr>
+                           <tr>
+                                <td>110</td>
+                                <td>Neha</td>
+                                <td>79%</td>
+                                <td>Eligible</td>
+                           </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+
+</body>
+
+</html>
