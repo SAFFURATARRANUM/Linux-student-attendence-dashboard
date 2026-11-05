@@ -28,23 +28,23 @@
                 <button class="refresh-btn" onclick="loadCSVData()">↻ Refresh Data</button>
             </div>
 
-            <!-- KPI Cards s-->
+            <!-- KPI Cards -->
             <section class="kpi-cards">
-                <div class="card">
+                  <div class="card">
                     <h3>Total Students</h3>
-                    <p>10</p> <!-- Static placeholder -->
+                    <p id="kpi-total">10</p>
                 </div>
                 <div class="card">
                     <h3>Average Attendance</h3>
-                    <p>77.8%</p>
+                    <p id="kpi-avg">77.8%</p>
                 </div>
                 <div class="card">
                     <h3>Eligible</h3>
-                    <p>6</p>
+                    <p id="kpi-eligible">6</p>
                 </div>
                 <div class="card">
                     <h3>Below 75%</h3>
-                    <p>4</p>
+                    <p id="kpi-below">4</p>
                 </div>
             </section>
 
@@ -71,68 +71,8 @@
                                 <th>Status</th>
                             </tr>
                         </thead>
-                        <tbody>
-                            <!-- Static placeholder data for the design -->
-                            <tr>
-                                <td>101</td>
-                                <td>Ravi</td>
-                                <td>90%</td>
-                                <td>Eligible</td>
-                            </tr>
-                            <tr>
-                                <td>102</td>
-                                <td>Meena</td>
-                                <td>65%</td>
-                                <td>Below 75%</td>
-                            </tr>
-                            <tr>
-                                <td>103</td>
-                                <td>Arjun</td>
-                                <td>75%</td>
-                                <td>Eligible</td>
-                            </tr>
-                            <tr>
-                                <td>104</td>
-                                <td>Sita</td>
-                                <td>50%</td>
-                                <td>Below 75%</td>
-                            </tr>
-                            <tr>
-                                <td>105</td>
-                                <td>Kiran</td>
-                                <td>82%</td>
-                                <td>Eligible</td>
-                           </tr>
-                           <tr>
-                                <td>106</td>
-                                <td>Priya</td>
-                                <td>96%</td>
-                                <td>Eligible</td>
-                           </tr>
-                            <tr>
-                                <td>107</td>
-                                <td>Anil</td>
-                                <td>70%</td>
-                                <td>Below 75%</td>
-                           </tr>
-                           <tr>
-                                <td>108</td>
-                                <td>Divya</td>
-                                <td>88%</td>
-                                <td>Eligible</td>
-                           </tr>
-                           <tr>
-                                <td>109</td>
-                                <td>Manoj</td>
-                                <td>45%</td>
-                                <td>Below 75%</td>
-                           </tr>
-                           <tr>
-                                <td>110</td>
-                                <td>Neha</td>
-                                <td>79%</td>
-                                <td>Eligible</td>
-                           </tr>
+                        <tbody id="table-body"></tbody>
+                          <!-- JavaScript will fill this in --> 
                         </tbody>
                     </table>
                 </div>
