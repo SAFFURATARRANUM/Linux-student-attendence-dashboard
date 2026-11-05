@@ -1,4 +1,3 @@
-# Linux-student-attendence-dashboard
 # Linux Student Attendance Dashboard
 
 A web-based student attendance monitoring system
