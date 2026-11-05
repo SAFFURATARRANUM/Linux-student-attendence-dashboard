@@ -1,8 +1,5 @@
 # Linux-student-attendence-dashboard
-echo "# Linux-student-attendence-dashboard" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/SAFFURATARRANUM/Linux-student-attendence-dashboard.git
-git push -u origin main
+# Linux Student Attendance Dashboard
+
+A web-based student attendance monitoring system
+built using Linux, Bash, AWK, HTML, CSS and JavaScript.
