@@ -9,7 +9,8 @@ let currentData = [
     { id: "107", name: "Anil", percentage: "70%", status: "Below 75%" },
     { id: "108", name: "Divya", percentage: "88%", status: "Eligible" },
     { id: "109", name: "Manoj", percentage: "45%", status: "Below 75%" },
-    { id: "110", name: "Neha", percentage: "79%", status: "Eligible" }
+    { id: "110", name: "Neha", percentage: "79%", status: "Eligible" },
+    { id: "112", name: "Sarah", percentage: "85%", status: "Eligible"},
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
