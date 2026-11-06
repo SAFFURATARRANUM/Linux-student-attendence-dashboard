@@ -19,8 +19,8 @@ document.addEventListener('DOMContentLoaded', () => {
 // This makes the button work!
 function loadCSVData() {
     // For the demo, we just add Deepak to simulate a refresh
-    const deepak = { id: "111", name: "Deepak", percentage: "98%", status: "Eligible" },
-    { id: "112", name: "Sarah", percentage: "85%", status: "Eligible"}:
+    const deepak = { id: "111", name: "Deepak", percentage: "98%", status: "Eligible" };
+    {"112","Sarah","85%","Eligible"};
     
     // Check if Deepak is already there
     if (!currentData.find(s => s.id === "111")) {
